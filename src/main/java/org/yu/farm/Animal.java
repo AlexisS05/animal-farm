@@ -1,6 +1,6 @@
 package org.yu.farm;
 
-public abstract class Animal {
+public abstract class Animal implements LifeForm{
 
     protected Animal(AnimalType species, String name) {
         this.species = species;
@@ -27,8 +27,5 @@ public abstract class Animal {
     // Methods
     abstract public void makeNoise();
 
-    public void eatUnderYonderTree() {
-        System.out.println("Munch Crunch Sluuuurp");
-    }
 
 }

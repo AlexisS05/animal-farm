@@ -33,6 +33,8 @@ public class AnimalFarm {
         animals.add(    new Cat("Bai-Bai")      );
         animals.add(    new Jaguar("Bob the not so Bad")  );
         animals.add(    new ScaryCat("Zoe (Not really bad; just a little scary)"));
+        animals.add(    new ScaryAnimal( "Armad"));
+        animals.add(    new Chicken("Chicky"));
     }
 
 }
