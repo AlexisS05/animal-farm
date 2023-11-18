@@ -8,7 +8,6 @@ public class Armadillo extends ScaryAnimal {
         super(name);
     }
 
-
     @Override
     public void makeNoise() {
         System.out.println("shhh.  armadillos are silent...");
