@@ -2,7 +2,7 @@ package org.yu.farm.scary;
 
 import org.yu.farm.Cat;
 
-public class Jaguar extends Cat {
+public class Jaguar extends ScaryAnimal {
 
     public Jaguar(String name) {
         super(name);
