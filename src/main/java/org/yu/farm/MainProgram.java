@@ -32,6 +32,9 @@ public class MainProgram {
             if ( a instanceof ScaryAnimal)
                 System.out.println("EEEEEK. A SCARY ANIMAL");
 
+            if(a instanceof Pettable)
+                ((Pettable)a).pet();
+
             System.out.println("");
 
         }
